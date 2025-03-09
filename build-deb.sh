@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 version=10.2
 codename=$GXDE_CODENAME
-sudo apt install aria2c -y
+sudo apt install aria2 -y
 # 判断是不是 arm64
 if [[ $(dpkg --print-architecture) != "arm64" ]]; then
     echo 暂不支持该架构
