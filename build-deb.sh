@@ -15,13 +15,13 @@ case $codename in
         url=https://github.com/AndreRH/hangover/releases/download/hangover-$version/hangover_${version}_debian12_bookworm_arm64.tar
     ;;
     "lizhi")
-        url=https://github.com/AndreRH/hangover/releases/download/hangover-$version/hangover_${version}_debian12_bookworm_arm64.tar
+        url=https://github.com/AndreRH/hangover/releases/download/hangover-$version/hangover_${version}_debian13_trixie_arm64.tar
     ;;
     "zhuangzhuang")
         url=https://github.com/AndreRH/hangover/releases/download/hangover-$version/hangover_${version}_debian13_trixie_arm64.tar
     ;;
     *)
-        url=https://github.com/AndreRH/hangover/releases/download/hangover-$version/hangover_${version}_debian13_trixie_arm64.tar
+        url=https://github.com/AndreRH/hangover/releases/download/hangover-$version/hangover_${version}_debian12_bookworm_arm64.tar
     ;;
 esac
 mkdir download
