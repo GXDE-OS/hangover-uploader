@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-version=10.11
+version=10.14
 codename=$GXDE_CODENAME
 sudo apt install aria2 -y
 # 判断是不是 arm64
